@@ -1,7 +1,9 @@
 #include<stdio.h>
 
 int main()
-{ 
-	printf("Hello World!\n");
+{
+       	char nume[50];
+	scanf("%49s" , nume);
+	printf("Hello,%s", nume);
 	return 0;
 }
